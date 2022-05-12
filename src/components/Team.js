@@ -11,7 +11,12 @@ function Team() {
       <Container className="teaming" fluid>
         <h4 className="sub-title text-center">MEET OUR BRILLIANT MINDS</h4>
         <h1 className="main-title  text-center">Our Leadership Team</h1>
-        <Row className="team-row">
+        <Row
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1000"
+          className="team-row"
+        >
           {teamap.map((current) => {
             const {
               id,

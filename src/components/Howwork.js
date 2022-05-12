@@ -10,7 +10,7 @@ function Howwork() {
       <section>
         <div className="work_container container">
           <h1 className="main_heading text-center">How does its works</h1>
-          <div className="row">
+          <div data-aos="fade-right" className="row">
             {workdata.map((current) => {
               const { id, logo, title, info } = current;
               return (

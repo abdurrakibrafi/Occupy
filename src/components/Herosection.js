@@ -12,6 +12,9 @@ function Herosection() {
           lg={6}
           xl={6}
           className="d-flex justify-content-center  flex-column"
+          data-aos="fade-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
         >
           <h1>Fast Growing ICO Agency For Blockchain Investors And Founders</h1>
           <p className={classes.para}>
@@ -34,6 +37,8 @@ function Herosection() {
           lg={6}
           xl={6}
           className={` d-flex justify-content-center align-items-center ${classes.mainimg}`}
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
         >
           <img className="img-fluid" src={imgone} alt="imgone" />
           <img

@@ -43,7 +43,12 @@ function About() {
               </Col>
             </Row>
           </Col>
-          <Col className="about">
+          <Col
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="about"
+          >
             <p className="title1">ABOUT UNION CORPORATION</p>
             <h1 className="maintitle">
               More than 40M+ Trusted <br></br> Our Financial & Conusultation
